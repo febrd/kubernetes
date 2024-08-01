@@ -95,4 +95,3 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 If you have any questions or issues, feel free to contact us.
 ```
 
-Feel free to make any additional changes as needed!
