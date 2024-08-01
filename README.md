@@ -1,5 +1,3 @@
-
-```markdown
 # Automating Kubernetes Installation on Debian
 
 This script automates the installation of Kubernetes on Debian and Debian-based distributions. It also installs Docker, disables swap, and configures the necessary Kubernetes repositories.
