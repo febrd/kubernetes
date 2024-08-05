@@ -4,7 +4,7 @@ This script automates the installation of Kubernetes on Debian and Debian-based 
 
 ## Prerequisites
 
-- Debian 10 or newer
+- Debian 10 or newer / Kali Linux
 - sudo access
 
 ## Steps
@@ -49,6 +49,7 @@ sudo apt install -y apt-transport-https ca-certificates gnupg2 curl software-pro
 # Add Docker repository
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+
 # For Kali Linux
 # sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian bullseye stable"
 
