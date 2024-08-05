@@ -49,13 +49,15 @@ sudo apt install -y apt-transport-https ca-certificates gnupg2 curl software-pro
 # Add Docker repository
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+# For Kali Linux
+# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian bullseye stable"
 
 # Update package lists
 sudo apt update
 
 # Install Docker
 sudo apt install -y docker-ce
-sudo systemctl status docker
+# sudo systemctl status docker
 
 # Disable swap
 sudo swapoff -a
